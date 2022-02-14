@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trinando tabelas</title>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+
+    th,td{
+        border: 1px solid black;
+        padding: 3px;
+    }
+    tr:nth-child(odd){
+        background-color: rgb(155, 151, 151);
+    }
+</style>
+
+</head>
+<body>
+    <table>
+        <caption><strong>Produzidos x vendidos por lojas</strong></caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colgroup">produtos</th>
+                <th colspan="2" scope="colgroup">luana ribeiro</th>
+                <th colspan="2" scope="colgroup">larissa ribeiro</th>
+            </tr>
+            <tr>
+                
+                <th scope="col">produzidos</th>
+                <th scope="col">vendidos</th>
+                <th scope="col">produzidos</th>
+                <th scope="col">vendidos</th>
+            </tr>
+            <tr>
+                <th scope="row">maça</th>
+                <td>60</td>
+                <td>50</td>
+                <td>70</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <th scope="row">abacaxi</th>
+                <td>300</td>
+                <td>300</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th scope="row">melancia</th>
+                <td>150</td>
+                <td>100</td>
+                <td>3000</td>
+                <td>2800</td>
+            </tr>
+            <tr>
+                <th scope="row">tomate</th>
+                <td>1500</td>
+                <td>1500a</td>
+                <td>500</td>
+                <td>500</td>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+
+        <tfoot></tfoot>
+    </table>
+
+</body>
+</html>
