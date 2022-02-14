@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+a{
+    background-color: rgb(131, 127, 127);
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+li :hover{
+text-decoration: underline;
+background-color: black;
+text-decoration: none;
+transition-duration: 0.5s;
+}
