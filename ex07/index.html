@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+
+        *{
+            margin: 0;
+        }
+
+        body{
+            display: grid;
+            height: 100vh;
+            grid-template-areas: 
+            "herder herder"
+            " main aside"
+            "footer footer";
+            grid-template-rows:100px auto 40px;
+            grid-template-columns: auto 200px;
+
+        }
+
+        header{
+            grid-area: herder;
+            background-color: red;
+        }
+
+        main{
+            grid-area: main;
+            background-color: blue;
+        }
+
+        aside{
+            grid-area: aside;
+            background-color: aqua;
+        }
+
+        footer{
+            grid-area: footer;
+            background-color: rgb(77, 75, 75);
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header> topo</header>
+    <main>conteudo</main>
+    <aside>infos adicionais</aside>
+    <footer>rodapé</footer>
+    
+</body>
+</html>
